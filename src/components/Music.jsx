@@ -2,12 +2,12 @@ import React from 'react'
 import image from "../images/music.png";
 const Music = () => {
   return (
-      <div style={{ height: "700px", width: "100%", border: '1px solid red',display:"flex"}}>
+      <div style={{ height: "700px", width: "100%",display:"flex"}}>
 
        
       
       
-       <div style={{height:"100%",width:"50%",border:'1px solid teal'}}>
+       <div style={{height:"100%",width:"50%",marginTop:"10px"}}>
         <p  style={{
                   color: "#34c6f3",
                   marginTop:"150px",
@@ -22,7 +22,7 @@ const Music = () => {
         <button style={{color:"#4c4c4c",marginTop:"-150px"}}>EXPLORE +</button>
 
           </div>
-          <div style={{height:"100%",width:"50%",border:'1px solid red'}}> <img style={{height:"100%",width:"100%"}} src={image} alt="" /></div>
+          <div style={{height:"100%",width:"50%",marginTop:"-10px"}}> <img style={{height:"100%",width:"100%"}} src={image} alt="" /></div>
        
     </div>
   )

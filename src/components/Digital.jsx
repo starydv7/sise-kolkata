@@ -3,12 +3,9 @@ import image from "../images/laptop.png";
 
 const Digital = () => {
   return (
-       <div style={{ height: "700px", width: "100%", border: '1px solid red',display:"flex"}}>
+       <div style={{ height: "700px", width: "100%",display:"flex"}}>
 
-       
-      
-      
-       <div style={{height:"100%",width:"50%",border:'1px solid teal'}}>
+       <div style={{height:"100%",width:"50%",marginTop:"30px"}}>
         <p style={{
                   color: "#34c6f3",
                   marginTop:"150px",
@@ -27,10 +24,10 @@ const Digital = () => {
                  fontWeight:"lighter"
 
         }}>MARKETING</p>
-        <button  style={{color:"#4c4c4c",marginTop:"-250px",borderRadius:"1px solid black"}}>EXPLORE +</button>
+        <button  style={{color:"#4c4c4c",marginTop:"-250px"}}>EXPLORE +</button>
 
           </div>
-          <div style={{height:"100%",width:"50%",border:'1px solid red'}}> <img style={{height:"100%",width:"100%"}} src={image} alt="" /></div>
+          <div style={{height:"100%",width:"50%"}}> <img style={{height:"100%",width:"100%"}} src={image} alt="" /></div>
        
     </div>
   )
