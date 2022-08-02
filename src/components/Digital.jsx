@@ -10,10 +10,24 @@ const Digital = () => {
       
        <div style={{height:"100%",width:"50%",border:'1px solid teal'}}>
         <p style={{
+                  color: "#34c6f3",
+                  marginTop:"150px",
+                  fontSize: "100px", fontFamily: "sans-serif",
+                  fontStyle:"Gandhi",
+                  fontWeight: "lighter",
+                  transform: "scale(1, 1)",
+                 fontfamily:"Helvetica Neue, Helvetica, Arial, sans-serif"
 
-        }}>TALENT</p>
-        <p>MANAGEMENT</p>
-        <button>EXPLORE +</button>
+        }}>DIGITAL</p>
+        <p style={{
+                  color: "#a6cf46",
+                  marginTop:"-90px",
+                  fontSize: "100px", fontFamily: "sans-serif",
+                  fontStretch: "extra-expanded",
+                 fontWeight:"lighter"
+
+        }}>MARKETING</p>
+        <button  style={{color:"#4c4c4c",marginTop:"-250px",borderRadius:"1px solid black"}}>EXPLORE +</button>
 
           </div>
           <div style={{height:"100%",width:"50%",border:'1px solid red'}}> <img style={{height:"100%",width:"100%"}} src={image} alt="" /></div>

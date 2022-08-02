@@ -7,6 +7,7 @@ import Talent from './Talent';
 import Digital from './Digital';
 import Sponser from './Sponser';
 import Music from './Music';
+import Footer from './Footer';
 const Navbar = () => {
   return (
       <div>
@@ -30,7 +31,8 @@ const Navbar = () => {
           <Talent />
           <Digital />
           <Sponser />
-          <Music/>
+          <Music />
+          <Footer/>
     </div>
   )
 }
