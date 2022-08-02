@@ -50,7 +50,7 @@
     color: rgb(51, 197, 25,0.7);
 }
 .insta{
-    margin-top: 20px;
+    margin-top: 28px;
     color: rgb(51, 197, 25,0.7);
 
 }
@@ -59,4 +59,8 @@
 }
 .social{
     display: flex;
+    margin-top: 8px;
+}
+.instagramsocial{
+    margin-top: 10px;
 }
