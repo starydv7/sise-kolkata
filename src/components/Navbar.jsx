@@ -1,13 +1,6 @@
 import React from 'react'
 import styles from "./navbar.module.css";
-import HomePage from './HomePage';
 import { Link } from "react-router-dom";
-import About from './About';
-import Talent from './Talent';
-import Digital from './Digital';
-import Sponser from './Sponser';
-import Music from './Music';
-import Footer from './Footer';
 const Navbar = () => {
   return (
       <div>
