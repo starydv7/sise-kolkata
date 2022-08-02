@@ -3,6 +3,7 @@ import styles from "../components/footer.module.css";
 import { FaHome } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
 import { GrMail } from "react-icons/gr";
+import logo from "../images/logo.png";
 import {
   faYoutube,
   faFacebook,
@@ -15,7 +16,7 @@ const Footer = () => {
   return (
         <div style={{ height: "200px", width: "100%",display:"flex"}}>
           <div style={{ height: "100%", width: "50%" }}>
-              <img style={{ width: "200px", marginLeft: "-10px",marginTop:"30px" }} src='http://www.sise.in/images/logo.png' alt='' />
+        <img style={{ width: "200px", marginLeft: "-10px", marginTop: "30px" }} src={logo } alt='' />
           </div>
       <div style={{ height: "100%", width: "50%",marginTop:'20px' }}>
          <div>
