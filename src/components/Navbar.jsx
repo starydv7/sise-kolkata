@@ -1,17 +1,20 @@
 import React from 'react'
 import styles from "./navbar.module.css";
 import HomePage from './HomePage';
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import About from './About';
 import Talent from './Talent';
+import Digital from './Digital';
+import Sponser from './Sponser';
+import Music from './Music';
 const Navbar = () => {
   return (
       <div>
           <div className={styles.navbar}>
         <div className={styles.navbar1}> 
-          <img src='http://www.sise.in/images/logo.png' />
+          <img style={{width: "200px",marginLeft:"-1300px"}}  src='http://www.sise.in/images/logo.png' alt='' />
           <div className={styles.navbar2}>
-           <Link to=""></Link>
+           {/* <Link to="/">home</Link> */}
       <Link to="/about">ABOUT</Link>
       <Link to="/talent">TALENT MANAGEMENT</Link>
             <Link to="/digital">DIGITAL MARKETING</Link>
@@ -24,9 +27,11 @@ const Navbar = () => {
       </div> 
           <HomePage />
           <About />
-          <Talent/>
+          <Talent />
+          <Digital />
+          <Sponser />
+          <Music/>
     </div>
   )
 }
-
-export default Navbar
+export { Navbar };

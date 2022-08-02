@@ -1,6 +1,6 @@
 import React from 'react'
-import image from "../images/talent-section.png";
-const Talent = () => {
+import image from "../images/rider.png";
+const Sponser = () => {
   return (
       <div style={{ height: "700px", width: "100%", border: '1px solid red',display:"flex"}}>
 
@@ -20,6 +20,4 @@ const Talent = () => {
   )
 }
 
-export default Talent;
-// //  
-// //           <div>sdbbd</div>
+export default Sponser

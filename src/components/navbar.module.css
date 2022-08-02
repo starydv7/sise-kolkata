@@ -14,10 +14,7 @@
  background-color: rgb(211, 201, 201);
     
 }
-img{
-    width: 200px;
-    margin-left:-1300px;
-}
+
 .navbar2{
     display: flex;
     margin-left: 200px;
