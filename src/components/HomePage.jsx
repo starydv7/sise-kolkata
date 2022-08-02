@@ -8,6 +8,12 @@ import {
   
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import About from './About';
+import Talent from './Talent';
+import Digital from './Digital';
+import Sponser from './Sponser';
+import Music from './Music';
+import Footer from './Footer';
 const HomePage = () => {
   return (
       <div>
@@ -57,7 +63,14 @@ const HomePage = () => {
                   </a>
                   </div>
                   </div>
-          </div>
+      </div>
+       
+          <About />
+          <Talent />
+          <Digital />
+          <Sponser />
+          <Music />
+          <Footer/>
     </div>
   )
 }

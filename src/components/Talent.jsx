@@ -1,6 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import image from "../images/talent-section.png";
 const Talent = () => {
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate("./talent");
+    }
   return (
       <div style={{ height: "700px", width: "100%", border: '1px solid red',display:"flex"}}>
 
@@ -24,7 +29,7 @@ const Talent = () => {
                  fontWeight:"lighter"
 
         }}>MANAGEMENT</p>
-        <button style={{color:"#4c4c4c",marginTop:"-150px"}}>EXPLORE +</button>
+              <button style={{ color: "#4c4c4c", marginTop: "-150px" }} onClick={handleClick}>EXPLORE +</button>
 
        </div>
        

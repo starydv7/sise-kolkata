@@ -26,13 +26,7 @@ const Navbar = () => {
         </div>
           
       </div> 
-          <HomePage />
-          <About />
-          <Talent />
-          <Digital />
-          <Sponser />
-          <Music />
-          <Footer/>
+         
     </div>
   )
 }
