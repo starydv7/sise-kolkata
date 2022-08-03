@@ -33,7 +33,7 @@ const HomePage = () => {
           <div className={styles.follow}>
               <p>Follow Us on</p>
               <div className={styles.social}>
-         <div style={{marginTop:"10px",marginLeft:"10px"}}>
+         <div style={{marginTop:"10px",marginLeft:"10px",display:"flex",backgroundColor:"white"}}>
              <a
           href="https://www.youtube.com/c/jamesqquick"
           className="youtube social"

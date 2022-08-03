@@ -19,7 +19,7 @@ const Footer = () => {
         <img style={{ width: "200px", marginLeft: "-10px", marginTop: "30px" }} src={logo } alt='' />
           </div>
       <div style={{ height: "100%", width: "50%",marginTop:'20px' }}>
-         <div>
+         <div style={{display:"flex"}}>
         <FaPhone className={styles.icon1} style={{width:"80px" ,height:"18px",marginLeft: "180px",color: " #18d26e"}}/>
           <p className={styles.addno}>033 2334-9495</p>
         </div>
@@ -39,7 +39,7 @@ const Footer = () => {
        
         <div style={{marginLeft:"-780px",padding:"5em"}}>
           Folllow us on
-          <div>
+          <div style={{display:"flex",marginLeft:"650px"}}>
              <a
           href="https://www.youtube.com/c/jamesqquick"
           className="youtube social"
