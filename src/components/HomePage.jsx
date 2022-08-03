@@ -31,9 +31,9 @@ const HomePage = () => {
               ENTERTAINMENT
           </div>
           <div className={styles.follow}>
-              <p>Follow Us on</p>
+              <p styles={{marginLeft:"5px"}}>Follow Us on</p>
               <div className={styles.social}>
-         <div style={{marginTop:"10px",marginLeft:"10px",display:"flex",backgroundColor:"white"}}>
+         <div style={{marginTop:"15px",marginLeft:"10px",display:"flex",backgroundColor:"white"}}>
              <a
           href="https://www.youtube.com/c/jamesqquick"
           className="youtube social"
