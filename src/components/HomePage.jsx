@@ -14,6 +14,7 @@ import Digital from './Digital';
 import Sponser from './Sponser';
 import Music from './Music';
 import Footer from './Footer';
+import Social from './Social';
 const HomePage = () => {
   return (
       <div>
@@ -64,6 +65,7 @@ const HomePage = () => {
           <Digital />
           <Sponser />
           <Music />
+          <Social/>
           <Footer/>
     </div>
   )

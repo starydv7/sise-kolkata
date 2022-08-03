@@ -27,7 +27,7 @@ const Sponser = () => {
                   fontStretch: "extra-expanded",
                  fontWeight:"lighter"
 
-        }}>& BRANDING</p>
+        }}> & BRANDING </p>
         <button style={{color:"#4c4c4c",marginTop:"-150px"}}>EXPLORE +</button>
 
        </div>

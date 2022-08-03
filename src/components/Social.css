@@ -1,0 +1,16 @@
+.social {
+  display: flex;
+  background-color: cadetblue;
+  opacity: 0.5;
+}
+.insta-bac {
+  background-image: url(../images/greenBackground.jpg);
+  height: auto;
+  width: 100%;
+}
+
+.fb-bac {
+  background-image: url(../images/blueBackround.jpg);
+  height: 400px;
+  width: 100%;
+}
